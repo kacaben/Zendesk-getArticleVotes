@@ -55,7 +55,6 @@ function ButtonClickAction (zEvent) {
 
         .then(promiseArray => {
             for (i=0; i < promiseArray.length; i++) {
-                            console.log("article " + articles);
                 for (o=0; o < promiseArray[i].length; o++) {
                     csvArr.push([promiseArray[i][o].id,promiseArray[i][o].author_id,promiseArray[i][o].name,promiseArray[i][o].vote_sum,promiseArray[i][o].vote_count]);
                 }
