@@ -1,5 +1,4 @@
 # Zendesk-getArticleVotes
-r
 > Tampermonkey userscript that exports vote counts for all Zendesk Help Center articles to a CSV.
 Tampermonkey userscript
 
